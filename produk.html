@@ -59,7 +59,7 @@
                 <!-- Ini Untuk Select -->
                 <div class="form-floating">
                     <select class="form-select" id="select_kopi" aria-label="Floating label select example">
-                        <option value="" selected disabled>All</option>
+                        <option value="" selected disabled>-</option>
                         <option value="arabica">Arabica</option>
                         <option value="robusta">Robusta</option>
                         <option value="nonkopi">Non Kopi</option>
@@ -245,32 +245,74 @@ var data_kopi = {
             "arabica": [
                 {
                     "nama": "Cappucino",
-                    "foto": "images/produk/product_capuchino.jpg"
+                    "foto": "images/produk/product_capuchino.jpg",
+                    "size": "250 ml",
+                    "harga": "35.000",
+                    "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
                 },
                 {
                     "nama": "Latte",
-                    "foto": "images/produk/product_latte.jpg"
+                    "foto": "images/produk/product_latte.jpg",
+                    "size": "250 ml",
+                    "harga": "35.000",
+                    "link": "https://www.google.com/search?sca_esv=9d404df1ab10a133&sxsrf=ACQVn0-Bex-GBjjLYdBNXxOSM_XYb7HEDA:1711722655602&q=latte+arabica&tbm=shop&source=lnms&prmd=isvmnbtz&ved=1t:200715&ictx=111&biw=1536&bih=738&dpr=1.25"
+                }
+                ,
+                {
+                    "nama": "Macchiato",
+                    "foto": "images/produk/machiato.jfif",
+                    "size": "250 ml",
+                    "harga": "35.000",
+                    "link": "https://www.google.com/search?q=machiato+coffee&sca_esv=ca1c0cbbb20de026&biw=1536&bih=738&tbm=shop&sxsrf=ACQVn0_jVfbq34mgXcMK0lIFMIdj0Ytftw%3A1711724732380&ei=vNgGZra1FsyPseMPkJyiiA4&ved=0ahUKEwi2g4HF35mFAxXMR2wGHRCOCOEQ4dUDCAg&uact=5&oq=machiato+coffee&gs_lp=Egtwcm9kdWN0cy1jYyIPbWFjaGlhdG8gY29mZmVlMgcQABiABBgNMgcQABiABBgNMgoQABiABBgNGNYFMgoQABiABBgNGNYFMgoQABiABBgNGNYFMgoQABiABBgNGNYFMgoQABiABBgNGNYFMgoQABiABBgNGNYFMgoQABiABBgNGNYFMgoQABiABBgNGNYFSO8vUPUDWPIkcAF4AJABAJgBtAGgAfwKqgEEMC4xMLgBA8gBAPgBAZgCCqACyQrCAgQQIxgnwgIGEAAYBxgewgIFEAAYgATCAggQABgFGAcYHpgDAIgGAZIHAzEuOaAHkUA&sclient=products-cc"
                 }
             ],
             "robusta": [
                 {
                     "nama": "Americano",
-                    "foto": "images/produk/product_americano.jpg"
+                    "foto": "images/produk/product_americano.jpg",
+                    "size": "100 ml",
+                    "harga": "20.000",
+                    "link": "https://www.google.com/search?sca_esv=9d404df1ab10a133&sxsrf=ACQVn09lx2ouAlCCac_UWwnkQaWRbywIQA:1711722885348&q=americano&tbm=shop&source=lnms&prmd=isvnmbtz&ved=1t:200715&ictx=111&biw=1536&bih=738&dpr=1.25"
+                    
                 },
                 {
                     "nama": "Espresso",
-                    "foto": "images/produk/product_espresso.jpg"
+                    "foto": "images/produk/product_espresso.jpg",
+                    "size": "100 ml",
+                    "harga": "25.000",
+                    "link": "https://www.google.com/search?q=esspresso&sca_esv=9d404df1ab10a133&biw=1536&bih=738&tbm=shop&sxsrf=ACQVn09vLU9ZB7t_cBNJzvvdTCafR3VPig%3A1711722889220&ei=idEGZuTfDIHx4-EPkYOkgAk&ved=0ahUKEwikyI_W2JmFAxWB-DgGHZEBCZAQ4dUDCAg&uact=5&oq=esspresso&gs_lp=Egtwcm9kdWN0cy1jYyIJZXNzcHJlc3NvMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKSLohUABY7RpwAHgAkAEAmAHTAaABggmqAQUxLjcuMbgBA8gBAPgBAZgCCaAC3QnCAgoQABiABBiKBRhDwgIFEAAYgASYAwCSBwUwLjguMaAH8jg&sclient=products-cc"
+                }
+                ,
+                {
+                    "nama": "Galao",
+                    "foto": "images/produk/galao.jfif",
+                    "size": "100 ml",
+                    "harga": "25.000",
+                    "link": "https://www.google.com/search?q=galao+coffee&sca_esv=ca1c0cbbb20de026&biw=1536&bih=738&tbm=shop&sxsrf=ACQVn0_AEGQ9bHGHKTgxTciNevqBnAbZxQ%3A1711724698269&ei=mtgGZpDmD8fiseMP8oSZuAs&ved=0ahUKEwiQm9-035mFAxVHcWwGHXJCBrcQ4dUDCAg&uact=5&oq=galao+coffee&gs_lp=Egtwcm9kdWN0cy1jYyIMZ2FsYW8gY29mZmVlMgUQABiABEitH1AAWOcYcAB4AJABAJgBhQKgAe0MqgEFMy43LjK4AQPIAQD4AQGYAgygAr4NwgIKEAAYgAQYigUYQ8ICBhAAGBYYHpgDAJIHBTEuOS4yoAfbKg&sclient=products-cc"
                 }
             ]
             ,
             "non coffee": [
                 {
                     "nama": "Greentea",
-                    "foto": "images/produk/product_greentea.jpg"
+                    "foto": "images/produk/product_greentea.jpg",
+                    "size": "250 ml",
+                    "harga": "40.000",
+                    "link": "https://www.google.com/search?q=green+tea+latte&sca_esv=9d404df1ab10a133&biw=1536&bih=738&tbm=shop&sxsrf=ACQVn08Y4nfs2ukjh1A4oQOmtm0eVRknRQ%3A1711722959257&ei=z9EGZpiAD8bu4-EPutq7gAI&oq=green+tea&gs_lp=Egtwcm9kdWN0cy1jYyIJZ3JlZW4gdGVhKgIIAzIEECMYJzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjSGlAAWABwAHgAkAEAmAH5AaAB-QGqAQMyLTG4AQHIAQCYAgGgAoUCmAMAiAYBkgcDMi0xoAfbBQ&sclient=products-cc"
                 },
                 {
                     "nama": "Red Velvet",
-                    "foto": "images/produk/product_red_velvet.jpg"
+                    "foto": "images/produk/product_red_velvet.jpg",
+                    "size": "250 ml",
+                    "harga": "40.000",
+                    "link": "https://www.google.com/search?q=red+velvet+latte&sca_esv=9d404df1ab10a133&biw=1536&bih=738&tbm=shop&sxsrf=ACQVn09IbxrYnI7EklaL5TBcPrMxPIUcEQ%3A1711722968364&ei=2NEGZuGyFeiD4-EP3vqAyAY&ved=0ahUKEwjh_u372JmFAxXowTgGHV49AGkQ4dUDCAg&uact=5&oq=red+velvet+latte&gs_lp=Egtwcm9kdWN0cy1jYyIQcmVkIHZlbHZldCBsYXR0ZTIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYBRgeMgQQABgeMgQQABgeSOEeUABYqhVwAHgAkAEAmAH3AaABgAqqAQUxLjguMbgBA8gBAPgBAZgCCaAC8wnCAgYQABgHGB7CAgYQABgIGB7CAggQABgFGAcYHsICCxAAGAgYHhgNGNYFwgIHEAAYgAQYDcICChAAGIAEGA0Y1gWYAwCSBwUwLjguMaAH1Ts&sclient=products-cc"
+                },
+                {
+                    "nama": "Tiramisu Latte",
+                    "foto": "images/produk/tiramisu.jfif",
+                    "size": "250 ml",
+                    "harga": "40.000",
+                    "link": "https://www.google.com/search?sca_esv=ca1c0cbbb20de026&sxsrf=ACQVn0--oudPq6eAuvH2J_pC3mGD4A-lMA:1711724693476&q=tiramisu+latte&tbm=shop&source=lnms&prmd=isvmnbtz&ved=1t:200715&ictx=111&biw=1536&bih=738&dpr=1.25"
                 }
             ]
         }

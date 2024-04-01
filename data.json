@@ -1,18 +1,18 @@
 {
     "arabica": [
         {
-            "foto": "images/produk/product_capuchino.jpg",
-            "nama": "Cappuccino Arabica",
-            "size": "500 Gram",
-            "harga": "200.000",
-            "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+            "nama": "Cappucino",
+                    "foto": "images/produk/product_capuchino.jpg",
+                    "size": "250 ml",
+                    "harga": "35.000",
+                    "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
         },
         {
-            "foto": "images/produk/product_espresso.jpg",
-            "nama": "Pahit Arabica",
-            "size": "100 Gram",
-            "harga": "100.000",
-            "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+            "nama": "Latte",
+                    "foto": "images/produk/product_latte.jpg",
+                    "size": "250 ml",
+                    "harga": "35.000",
+                    "link": "https://www.google.com/search?sca_esv=9d404df1ab10a133&sxsrf=ACQVn0-Bex-GBjjLYdBNXxOSM_XYb7HEDA:1711722655602&q=latte+arabica&tbm=shop&source=lnms&prmd=isvmnbtz&ved=1t:200715&ictx=111&biw=1536&bih=738&dpr=1.25"
         },
         {
             "foto": "images/produk/product_latte.jpg",
@@ -24,28 +24,36 @@
     ],
     "robusta": [
         {
-            "foto": "images/produk/product_americano.jpg",
             "nama": "Americano",
-            "size": "100 Gram",
-            "harga": "500.000",
-            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+            "foto": "images/produk/product_americano.jpg",
+            "size": "100 ml",
+            "harga": "20.000",
+            "link": "https://www.google.com/search?sca_esv=9d404df1ab10a133&sxsrf=ACQVn09lx2ouAlCCac_UWwnkQaWRbywIQA:1711722885348&q=americano&tbm=shop&source=lnms&prmd=isvnmbtz&ved=1t:200715&ictx=111&biw=1536&bih=738&dpr=1.25"
+            
         },
         {
-            "foto": "images/produk/product_latte.jpg",
-            "nama": "Latte Robusta",
-            "size": "150 Gram",
-            "harga": "150.000",
-            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+            "nama": "Espresso",
+            "foto": "images/produk/product_espresso.jpg",
+            "size": "150 ml",
+            "harga": "25.000",
+            "link": "https://www.google.com/search?q=esspresso&sca_esv=9d404df1ab10a133&biw=1536&bih=738&tbm=shop&sxsrf=ACQVn09vLU9ZB7t_cBNJzvvdTCafR3VPig%3A1711722889220&ei=idEGZuTfDIHx4-EPkYOkgAk&ved=0ahUKEwikyI_W2JmFAxWB-DgGHZEBCZAQ4dUDCAg&uact=5&oq=esspresso&gs_lp=Egtwcm9kdWN0cy1jYyIJZXNzcHJlc3NvMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKSLohUABY7RpwAHgAkAEAmAHTAaABggmqAQUxLjcuMbgBA8gBAPgBAZgCCaAC3QnCAgoQABiABBiKBRhDwgIFEAAYgASYAwCSBwUwLjguMaAH8jg&sclient=products-cc"
         }
-    ],
+    ]
+    ,
     "non coffee": [
         {
             "nama": "Greentea",
-            "foto": "images/produk/product_greentea.jpg"
+            "foto": "images/produk/product_greentea.jpg",
+            "size": "250 ml",
+            "harga": "35.000",
+            "link": "https://www.google.com/search?q=green+tea+latte&sca_esv=9d404df1ab10a133&biw=1536&bih=738&tbm=shop&sxsrf=ACQVn08Y4nfs2ukjh1A4oQOmtm0eVRknRQ%3A1711722959257&ei=z9EGZpiAD8bu4-EPutq7gAI&oq=green+tea&gs_lp=Egtwcm9kdWN0cy1jYyIJZ3JlZW4gdGVhKgIIAzIEECMYJzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjSGlAAWABwAHgAkAEAmAH5AaAB-QGqAQMyLTG4AQHIAQCYAgGgAoUCmAMAiAYBkgcDMi0xoAfbBQ&sclient=products-cc"
         },
         {
             "nama": "Red Velvet",
-            "foto": "images/produk/product_red_velvet.jpg"
+            "foto": "images/produk/product_red_velvet.jpg",
+            "size": "250 ml",
+            "harga": "35.000",
+            "link": "https://www.google.com/search?q=red+velvet+latte&sca_esv=9d404df1ab10a133&biw=1536&bih=738&tbm=shop&sxsrf=ACQVn09IbxrYnI7EklaL5TBcPrMxPIUcEQ%3A1711722968364&ei=2NEGZuGyFeiD4-EP3vqAyAY&ved=0ahUKEwjh_u372JmFAxXowTgGHV49AGkQ4dUDCAg&uact=5&oq=red+velvet+latte&gs_lp=Egtwcm9kdWN0cy1jYyIQcmVkIHZlbHZldCBsYXR0ZTIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYBRgeMgQQABgeMgQQABgeSOEeUABYqhVwAHgAkAEAmAH3AaABgAqqAQUxLjguMbgBA8gBAPgBAZgCCaAC8wnCAgYQABgHGB7CAgYQABgIGB7CAggQABgFGAcYHsICCxAAGAgYHhgNGNYFwgIHEAAYgAQYDcICChAAGIAEGA0Y1gWYAwCSBwUwLjguMaAH1Ts&sclient=products-cc"
         }
     ]
 }
